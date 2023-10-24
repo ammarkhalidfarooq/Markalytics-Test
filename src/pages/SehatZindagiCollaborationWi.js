@@ -1,32 +1,28 @@
-import RequestMoreInformationForm1 from "../components/RequestMoreInformationForm1";
-import CoreObjectivesContainer from "../components/CoreObjectivesContainer";
-import MissionAndVisionContainer from "../components/MissionAndVisionContainer";
+import SectionForm1 from "../components/SectionForm1";
+import SectionCard from "../components/SectionCard";
+import SectionCard2 from "../components/SectionCard2";
 import AboutSection from "../components/AboutSection";
-import LeadersAndExpertsContainer1 from "../components/LeadersAndExpertsContainer1";
-import HealthAssessmentContainer1 from "../components/HealthAssessmentContainer1";
-import MessageContainer from "../components/MessageContainer";
+import SectionCard3 from "../components/SectionCard3";
+import SectionCard1 from "../components/SectionCard1";
+import SendMessageFormContainer1 from "../components/SendMessageFormContainer1";
 import "./SehatZindagiCollaborationWi.css";
 
 const SehatZindagiCollaborationWi = () => {
   return (
     <div className="sehat-zindagi-collaboration-wi">
-      <img
-        className="sehat-zindagi-collaboration-wi-child"
-        alt=""
-        src="/rectangle-2882@2x.png"
-      />
-      <div className="sehat-zindagi-collaboration-wi-item" />
-      <div className="rectangle-parent">
+      <section className="sehat-zindagi-collaboration-wi-child" />
+      <section className="sehat-zindagi-collaboration-wi-item" />
+      <button className="rectangle-parent">
         <div className="group-child" />
         <div className="quick-consultation">QUICK CONSULTATION</div>
-      </div>
-      <div className="your-path-to-container">
+      </button>
+      <h1 className="your-path-to-container">
         <p className="your-path-to">{`Your Path to Wellness `}</p>
         <p className="your-path-to">Starts Here!</p>
-      </div>
-      <div className="embrace-a-vibrant">
+      </h1>
+      <h2 className="embrace-a-vibrant">
         Embrace a vibrant and healthy life with us!
-      </div>
+      </h2>
       <div className="sehat-zindagi-x">
         Sehat Zindagi x Nutradvice Collaboration
       </div>
@@ -39,7 +35,7 @@ const SehatZindagiCollaborationWi = () => {
         </p>
       </div>
       <img className="sehat-logo-icon" alt="" src="/sehatlogo.svg" />
-      <RequestMoreInformationForm1 />
+      <SectionForm1 />
       <div className="contact-us-parent">
         <div className="contact-us">CONTACT US</div>
         <div className="about-us">ABOUT US</div>
@@ -48,14 +44,14 @@ const SehatZindagiCollaborationWi = () => {
           <div className="group-item" />
         </div>
       </div>
-      <CoreObjectivesContainer />
-      <MissionAndVisionContainer />
+      <SectionCard />
+      <SectionCard2 />
       <AboutSection />
-      <div className="join-us-in-container">
+      <h2 className="join-us-in-container">
         <p className="your-path-to">{`Join Us in Redefining Healthcare `}</p>
         <p className="your-path-to">{`with Sehat Zindagi x Nutradvice `}</p>
         <p className="your-path-to">Collaboration</p>
-      </div>
+      </h2>
       <div className="together-sehat-zindagi">
         Together, Sehat Zindagi and Nutradvice are on a mission to revolutionize
         healthcare in Pakistan. We're committed to ensuring that every
@@ -63,25 +59,25 @@ const SehatZindagiCollaborationWi = () => {
         nutritional guidance. Join us in our collective effort to redefine
         well-being in Pakistan.
       </div>
-      <LeadersAndExpertsContainer1 />
-      <HealthAssessmentContainer1 />
-      <MessageContainer />
+      <SectionCard3 />
+      <SectionCard1 />
+      <SendMessageFormContainer1 />
       <div className="vector-parent">
         <img className="vector-icon" alt="" src="/vector.svg" />
-        <div className="address">Address</div>
+        <h2 className="address">Address</h2>
       </div>
       <div className="vector-group">
         <img className="vector-icon1" alt="" src="/vector1.svg" />
-        <div className="address">Mail</div>
+        <h2 className="address">Mail</h2>
       </div>
       <div className="vector-container">
         <img className="vector-icon2" alt="" src="/vector2.svg" />
-        <div className="address">+923084282001</div>
+        <div className="div">+923084282001</div>
       </div>
-      <div className="rectangle-group">
+      <button className="rectangle-group">
         <div className="group-inner" />
         <div className="get-started">GET STARTED</div>
-      </div>
+      </button>
       <img className="xmlid-1-icon" alt="" src="/xmlid-1.svg" />
       <img className="xmlid-1-icon1" alt="" src="/xmlid-11.svg" />
       <div className="rectangle-container">

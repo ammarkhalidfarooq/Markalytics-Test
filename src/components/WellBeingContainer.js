@@ -16,7 +16,7 @@ const WellBeingContainer = ({
   }, [propLeft]);
 
   return (
-    <div className="rectangle-parent1" style={groupDivStyle}>
+    <div className="group-div" style={groupDivStyle}>
       <div className="group-child2" />
       <div className="enhance-well-being-parent">
         <div className="enhance-well-being">{enhanceWellBeing}</div>

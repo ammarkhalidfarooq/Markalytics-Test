@@ -1,4 +1,5 @@
 .send-message {
+  margin: 0;
   position: absolute;
   top: 45px;
   left: 34px;
@@ -12,6 +13,16 @@
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+}
+input {
+  outline: 0;
+  border-width: 0 0 0;
+}
+input::placeholder {
+  color: #b3b3b3;
+  font-size: 14px;
+  font-family: var(--font-poppins);
 }
 .line-div {
   top: 27.5px;
@@ -79,16 +90,22 @@
   position: absolute;
   top: 6px;
   left: 21px;
+  font-size: var(--font-size-xs);
   font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
 }
-.rectangle-parent11 {
+.rectangle-parent9 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
   position: absolute;
   top: 366px;
   left: 34px;
   width: 74px;
   height: 30px;
-  font-size: var(--font-size-xs);
-  color: var(--color-white);
 }
 .send-message-parent {
   position: absolute;

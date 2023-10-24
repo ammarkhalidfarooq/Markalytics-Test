@@ -18,6 +18,7 @@
   width: 329px;
 }
 .medical-expertise {
+  margin: 0;
   position: absolute;
   top: 36px;
   left: 38px;
@@ -26,7 +27,7 @@
   font-family: var(--font-montserrat);
   color: var(--color-gray-200);
 }
-.rectangle-parent10 {
+.rectangle-parent8 {
   position: absolute;
   top: 342px;
   left: 391px;

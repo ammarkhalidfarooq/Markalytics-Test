@@ -15,12 +15,12 @@ const HealthcareContainer = ({
   }, [propTop, propLeft]);
 
   return (
-    <div className="rectangle-parent10" style={groupDiv2Style}>
+    <div className="rectangle-parent8" style={groupDiv2Style}>
       <div className="group-child17" />
       <div className="sehat-zindagis-healthcare">
         {sehatZindagisHealthcareEx}
       </div>
-      <div className="medical-expertise">{medicalExpertise}</div>
+      <h2 className="medical-expertise">{medicalExpertise}</h2>
     </div>
   );
 };

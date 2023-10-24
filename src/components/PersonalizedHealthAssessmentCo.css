@@ -21,6 +21,7 @@
   margin: 0;
 }
 .personalized-health-assessment-container {
+  margin: 0;
   position: absolute;
   top: 36px;
   left: 38px;
@@ -29,7 +30,7 @@
   font-family: var(--font-montserrat);
   color: var(--color-gray-200);
 }
-.rectangle-parent9 {
+.rectangle-parent7 {
   position: absolute;
   top: 0;
   left: 391px;

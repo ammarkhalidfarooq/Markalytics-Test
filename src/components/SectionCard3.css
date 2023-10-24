@@ -2,10 +2,13 @@
   margin: 0;
 }
 .our-leaders-and-container {
+  margin: 0;
   position: absolute;
   top: 0;
   left: 0;
+  font-size: inherit;
   font-weight: 800;
+  font-family: inherit;
 }
 .the-driving-forces-container {
   position: absolute;
@@ -24,10 +27,13 @@
   font-size: var(--font-size-31xl);
 }
 .meet-our-visionary-container {
+  margin: 0;
   position: absolute;
   top: 0;
   left: 41px;
+  font-size: inherit;
   font-weight: 800;
+  font-family: inherit;
 }
 .group-child10 {
   position: absolute;
@@ -88,6 +94,7 @@
   width: 444px;
 }
 .dr-mudassar {
+  margin: 0;
   position: absolute;
   top: 182px;
   left: 55px;
@@ -113,7 +120,7 @@
   height: 146px;
   object-fit: cover;
 }
-.rectangle-parent7 {
+.rectangle-parent5 {
   position: absolute;
   top: 0;
   left: 46px;
@@ -121,12 +128,12 @@
   height: 146px;
 }
 .group-child14,
-.rectangle-parent6 {
+.rectangle-parent4 {
   position: absolute;
   left: 0;
   width: 517px;
 }
-.rectangle-parent6 {
+.rectangle-parent4 {
   top: 294px;
   height: 432px;
   color: var(--color-gray-100);
@@ -149,6 +156,7 @@
   width: 444px;
 }
 .dr-nosheen-taqvi-container {
+  margin: 0;
   position: absolute;
   top: 180px;
   left: 52px;
@@ -167,7 +175,7 @@
   object-fit: cover;
 }
 .group-parent1,
-.rectangle-parent8 {
+.rectangle-parent6 {
   position: absolute;
   top: 294px;
   left: 723px;

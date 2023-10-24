@@ -1,11 +1,11 @@
-import HealthAssessmentContainer from "./HealthAssessmentContainer";
+import PersonalizedHealthAssessmentCo from "./PersonalizedHealthAssessmentCo";
 import HealthcareContainer from "./HealthcareContainer";
-import "./HealthAssessmentContainer1.css";
+import "./SectionCard1.css";
 
-const HealthAssessmentContainer1 = () => {
+const SectionCard1 = () => {
   return (
-    <div className="group-parent3">
-      <HealthAssessmentContainer
+    <section className="group-parent3">
+      <PersonalizedHealthAssessmentCo
         ourCollaborationOffersPer="Our collaboration offers personalized health assessments that consider your medical history, nutritional preferences, and lifestyle and serve as the foundation for tailored health and nutrition plans."
         personalized="Personalized "
         healthAssessment="Health Assessment"
@@ -22,7 +22,7 @@ const HealthAssessmentContainer1 = () => {
           propLeft="0px"
         />
       </div>
-      <HealthAssessmentContainer
+      <PersonalizedHealthAssessmentCo
         ourCollaborationOffersPer="Engage with a thriving health-conscious community through online forums and live chats. Share experiences, ask questions, and find motivation and support on your health journey."
         personalized="Interactive "
         healthAssessment="Community"
@@ -33,8 +33,8 @@ const HealthAssessmentContainer1 = () => {
         <p className="sehat-zindagi">{`Sehat Zindagi `}</p>
         <p className="sehat-zindagi">x Nutradvice</p>
       </div>
-    </div>
+    </section>
   );
 };
 
-export default HealthAssessmentContainer1;
+export default SectionCard1;

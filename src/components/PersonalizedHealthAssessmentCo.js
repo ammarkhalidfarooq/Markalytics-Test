@@ -1,7 +1,7 @@
 import { useMemo } from "react";
-import "./HealthAssessmentContainer.css";
+import "./PersonalizedHealthAssessmentCo.css";
 
-const HealthAssessmentContainer = ({
+const PersonalizedHealthAssessmentCo = ({
   ourCollaborationOffersPer,
   personalized,
   healthAssessment,
@@ -14,17 +14,17 @@ const HealthAssessmentContainer = ({
   }, [propLeft]);
 
   return (
-    <div className="rectangle-parent9" style={groupDiv1Style}>
+    <div className="rectangle-parent7" style={groupDiv1Style}>
       <div className="group-child16" />
       <div className="our-collaboration-offers">
         {ourCollaborationOffersPer}
       </div>
-      <div className="personalized-health-assessment-container">
+      <h2 className="personalized-health-assessment-container">
         <p className="personalized">{personalized}</p>
         <p className="personalized">{healthAssessment}</p>
-      </div>
+      </h2>
     </div>
   );
 };
 
-export default HealthAssessmentContainer;
+export default PersonalizedHealthAssessmentCo;

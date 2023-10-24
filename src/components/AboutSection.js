@@ -2,16 +2,16 @@ import "./AboutSection.css";
 
 const AboutSection = () => {
   return (
-    <div className="rectangle-parent4">
+    <section className="rectangle-parent3">
       <div className="group-child8" />
-      <div className="rectangle-parent5">
+      <button className="group-button">
         <div className="group-child9" />
         <div className="get-started1">GET STARTED</div>
-      </div>
-      <div className="about-collaborations">
+      </button>
+      <h1 className="about-collaborations">
         <p className="about">About</p>
         <p className="about">Collaborations</p>
-      </div>
+      </h1>
       <div className="at-nutradvice-and-container">
         <p className="about">{`At Nutradvice and Sehat Zindagi, our collaboration is driven by a shared vision – `}</p>
         <p className="about">
@@ -22,7 +22,7 @@ const AboutSection = () => {
         </p>
       </div>
       <img className="rectangle-icon" alt="" src="/rectangle-2878@2x.png" />
-    </div>
+    </section>
   );
 };
 

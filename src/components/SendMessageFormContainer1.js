@@ -1,31 +1,31 @@
-import "./MessageContainer.css";
+import "./SendMessageFormContainer1.css";
 
-const MessageContainer = () => {
+const SendMessageFormContainer1 = () => {
   return (
     <div className="send-message-parent">
-      <div className="send-message">Send Message</div>
+      <h2 className="send-message">Send Message</h2>
       <div className="name-parent">
-        <div className="name">Name</div>
+        <input placeholder="Name" className="name" />
         <div className="line-div" />
       </div>
       <div className="email-parent">
-        <div className="name">Email</div>
+        <input placeholder="Email" className="name" />
         <div className="group-child18" />
       </div>
       <div className="contact-parent">
-        <div className="name">Contact #</div>
+        <input placeholder="Contact #" className="name" />
         <div className="group-child18" />
       </div>
       <div className="type-your-message-parent">
-        <div className="name">Type Your Message</div>
+        <input placeholder="Type Your Message" className="name" />
         <div className="group-child20" />
       </div>
-      <div className="rectangle-parent11">
+      <button className="rectangle-parent9">
         <div className="group-child21" />
         <div className="send">Send</div>
-      </div>
+      </button>
     </div>
   );
 };
 
-export default MessageContainer;
+export default SendMessageFormContainer1;

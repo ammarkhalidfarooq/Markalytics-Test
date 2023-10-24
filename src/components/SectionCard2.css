@@ -15,10 +15,13 @@
   object-fit: cover;
 }
 .mission-and-vision {
+  margin: 0;
   position: absolute;
   top: 223.27px;
   left: 45.39px;
+  font-size: inherit;
   font-weight: 800;
+  font-family: inherit;
 }
 .vector-parent1 {
   width: 517px;
@@ -43,7 +46,10 @@
   height: 205px;
 }
 .our-mission {
+  margin: 0;
+  font-size: inherit;
   font-weight: 600;
+  font-family: inherit;
 }
 .we-aim-to {
   margin: 0;
@@ -63,7 +69,7 @@
   width: 324px;
   height: 165px;
 }
-.rectangle-parent2 {
+.rectangle-parent1 {
   position: absolute;
   top: 0;
   left: 693px;
@@ -71,10 +77,13 @@
   height: 205px;
 }
 .our-vision {
+  margin: 0;
   position: absolute;
   top: 21px;
   left: 35px;
+  font-size: inherit;
   font-weight: 600;
+  font-family: inherit;
 }
 .we-envision-a-container {
   position: absolute;
@@ -85,7 +94,7 @@
   color: var(--color-gray-100);
 }
 .group-container,
-.rectangle-parent3 {
+.rectangle-parent2 {
   position: absolute;
   top: 255px;
   left: 693px;

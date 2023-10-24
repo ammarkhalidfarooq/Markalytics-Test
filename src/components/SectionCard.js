@@ -1,11 +1,11 @@
 import WellBeingContainer from "./WellBeingContainer";
-import "./CoreObjectivesContainer.css";
+import "./SectionCard.css";
 
-const CoreObjectivesContainer = () => {
+const SectionCard = () => {
   return (
-    <div className="group-parent">
+    <section className="group-parent">
       <div className="core-objectives-parent">
-        <div className="core-objectives">Core Objectives</div>
+        <h1 className="core-objectives">Core Objectives</h1>
         <div className="at-the-heart-container">
           <p className="at-the-heart">{`At the heart of our joint venture lies a commitment `}</p>
           <p className="at-the-heart">{`to transform lives by providing holistic healthcare `}</p>
@@ -15,11 +15,11 @@ const CoreObjectivesContainer = () => {
       </div>
       <div className="ellipse-parent">
         <div className="ellipse-div" />
-        <div className="get-ready-to-container">
+        <h2 className="get-ready-to-container">
           <p className="at-the-heart">{`Get ready to embark on a journey `}</p>
           <p className="at-the-heart">that places your well-being at the</p>
           <p className="at-the-heart">forefront of everything we do.</p>
-        </div>
+        </h2>
         <img className="group-child4" alt="" src="/vector-14.svg" />
       </div>
       <WellBeingContainer
@@ -37,8 +37,8 @@ const CoreObjectivesContainer = () => {
         group="/group.svg"
         propLeft="0px"
       />
-    </div>
+    </section>
   );
 };
 
-export default CoreObjectivesContainer;
+export default SectionCard;
