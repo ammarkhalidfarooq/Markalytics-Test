@@ -1,0 +1,35 @@
+.group-wrapper {
+  position: absolute;
+  top: 342px;
+  left: 839px;
+  width: 401px;
+  height: 292px;
+}
+.why {
+  font-size: var(--font-size-11xl);
+  color: var(--color-mediumseagreen-300);
+}
+.sehat-zindagi,
+.why {
+  margin: 0;
+}
+.why-sehat-zindagi-container {
+  position: absolute;
+  top: 186px;
+  left: 0;
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-31xl);
+  color: var(--color-gray-200);
+}
+.group-parent3 {
+  position: absolute;
+  top: 2332px;
+  left: 100px;
+  width: 1240px;
+  height: 634px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,136 @@
+.group-child1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-mintcream);
+  width: 1440px;
+  height: 612px;
+}
+.bostel-llc {
+  position: absolute;
+  top: calc(50% + 139px);
+  left: 39.65%;
+  opacity: 0.8;
+  mix-blend-mode: normal;
+}
+.request-more-informa {
+  position: absolute;
+  top: calc(50% - 160px);
+  left: 0;
+  font-size: var(--font-size-31xl);
+  font-family: var(--font-montserrat);
+}
+.bostel-technologies {
+  position: absolute;
+  width: 84.08%;
+  top: calc(50% - 82px);
+  left: 8.1%;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-100);
+  display: inline-block;
+  opacity: 0.8;
+  mix-blend-mode: normal;
+}
+.rectangle {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mediumseagreen-300);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.11);
+}
+.item1 {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 27.36%;
+}
+.contact-us1 {
+  position: absolute;
+  height: 18.75%;
+  width: 28.57%;
+  top: 59.06%;
+  right: 35.69%;
+  bottom: 22.19%;
+  left: 35.75%;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.bostel-llc-parent {
+  position: absolute;
+  width: 47.99%;
+  top: calc(50% - 214px);
+  right: 26.04%;
+  left: 25.97%;
+  height: 320px;
+}
+.line-icon {
+  position: absolute;
+  height: 0.16%;
+  width: 86.18%;
+  top: 81.7%;
+  right: 6.91%;
+  bottom: 18.14%;
+  left: 6.91%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.sehat-logo-icon1,
+.social-icon {
+  position: absolute;
+  top: 520px;
+  left: 104px;
+  width: 235px;
+  height: 72px;
+  overflow: hidden;
+}
+.social-icon {
+  height: 7.35%;
+  width: 17.71%;
+  top: 87.25%;
+  right: 6.94%;
+  bottom: 5.39%;
+  left: 75.35%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.case-studies,
+.team {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 0;
+}
+.case-studies {
+  left: 30%;
+  text-align: center;
+}
+.publications,
+.team-parent {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 61.03%;
+}
+.team-parent {
+  width: 27.08%;
+  top: calc(50% + 238px);
+  right: 36.46%;
+  left: 36.46%;
+  height: 24px;
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.group-div {
+  position: absolute;
+  top: 4550px;
+  left: 0;
+  width: 1440px;
+  height: 612px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--dark);
+  font-family: var(--font-poppins);
+}

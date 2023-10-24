@@ -1,0 +1,66 @@
+.group-child2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 37px 38px rgba(0, 0, 0, 0.03);
+  width: 464px;
+  height: 172px;
+}
+.enhance-well-being {
+  position: absolute;
+  top: 10px;
+  left: 123px;
+  font-weight: 500;
+}
+.our-mission-is {
+  margin: 0;
+}
+.our-mission-is-container {
+  position: absolute;
+  top: 54px;
+  left: 123px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-poppins);
+  color: var(--color-gray-100);
+}
+.group-child3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-honeydew);
+  width: 100px;
+  height: 100px;
+}
+.group-icon {
+  position: absolute;
+  height: 31.48%;
+  width: 9.52%;
+  top: 30.56%;
+  right: 83.9%;
+  bottom: 37.96%;
+  left: 6.58%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.enhance-well-being-parent {
+  position: absolute;
+  top: 34px;
+  left: 6px;
+  width: 441px;
+  height: 108px;
+}
+.rectangle-parent1 {
+  position: absolute;
+  top: 179px;
+  left: 693px;
+  width: 464px;
+  height: 172px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-montserrat);
+}

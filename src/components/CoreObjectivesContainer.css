@@ -1,0 +1,64 @@
+.core-objectives {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 800;
+}
+.at-the-heart {
+  margin: 0;
+}
+.at-the-heart-container {
+  position: absolute;
+  top: 91px;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-gray-100);
+}
+.core-objectives-parent,
+.ellipse-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 422px;
+  height: 187px;
+}
+.ellipse-div {
+  top: 7px;
+  border-radius: 50%;
+  background-color: var(--color-mediumseagreen-300);
+  width: 24px;
+  height: 24px;
+}
+.get-ready-to-container {
+  position: absolute;
+  top: 0;
+  left: 52px;
+  font-weight: 800;
+}
+.group-child4 {
+  position: absolute;
+  top: 127px;
+  left: 48px;
+  width: 536px;
+  height: 2px;
+}
+.ellipse-parent,
+.group-parent {
+  position: absolute;
+  top: 1px;
+  left: 641px;
+  width: 599px;
+  height: 128px;
+  font-size: var(--font-size-11xl);
+}
+.group-parent {
+  top: 788px;
+  left: 100px;
+  width: 1240px;
+  height: 351px;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-montserrat);
+}

@@ -1,0 +1,42 @@
+.group-child16 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 38px 37px rgba(0, 0, 0, 0.03);
+  border: 1px solid var(--color-mediumseagreen-300);
+  box-sizing: border-box;
+  width: 401px;
+  height: 292px;
+}
+.our-collaboration-offers {
+  position: absolute;
+  top: 140px;
+  left: 38px;
+  display: inline-block;
+  width: 329px;
+}
+.personalized {
+  margin: 0;
+}
+.personalized-health-assessment-container {
+  position: absolute;
+  top: 36px;
+  left: 38px;
+  font-size: var(--font-size-11xl);
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--color-gray-200);
+}
+.rectangle-parent9 {
+  position: absolute;
+  top: 0;
+  left: 391px;
+  width: 401px;
+  height: 292px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}

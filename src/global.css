@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-xs: 12px;
+  --font-size-11xl: 30px;
+  --font-size-sm: 14px;
+  --font-size-31xl: 50px;
+  --font-size-base: 16px;
+  --font-size-21xl: 40px;
+  --font-size-xl: 20px;
+  --font-size-lg: 18px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-mediumseagreen-100: #52d695;
+  --color-mediumseagreen-200: #45b880;
+  --color-mediumseagreen-300: #43b97f;
+  --color-gray-100: #7c7c7c;
+  --color-gray-200: #262a45;
+  --dark: #0a142f;
+  --color-darkgray: #b3b3b3;
+  --color-silver: #c2c2c2;
+  --color-gainsboro: #d9d9d9;
+  --color-honeydew: #edfff5;
+  --color-mintcream: #f2faf5;
+
+  /* Gaps */
+  --gap-5xl: 24px;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+  --br-5xs: 8px;
+  --br-3xs: 10px;
+  --br-81xl: 100px;
+}

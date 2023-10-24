@@ -1,0 +1,67 @@
+.group-child8,
+.group-child9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-mediumseagreen-300);
+  width: 1440px;
+  height: 376px;
+}
+.group-child9 {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-mediumseagreen-100);
+  width: 111px;
+  height: 45px;
+}
+.get-started1 {
+  position: absolute;
+  top: 14px;
+  left: 16px;
+  font-weight: 600;
+}
+.rectangle-parent5 {
+  position: absolute;
+  top: 285px;
+  left: 100px;
+  width: 111px;
+  height: 45px;
+}
+.about {
+  margin: 0;
+}
+.about-collaborations {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  font-size: var(--font-size-21xl);
+  font-weight: 800;
+  font-family: var(--font-montserrat);
+  color: var(--color-gray-200);
+}
+.at-nutradvice-and-container {
+  position: absolute;
+  top: 173px;
+  left: 100px;
+  font-size: var(--font-size-sm);
+  display: inline-block;
+  width: 560px;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 0;
+  left: 640px;
+  width: 800px;
+  height: 376px;
+  object-fit: cover;
+}
+.rectangle-parent4 {
+  position: absolute;
+  top: 1856px;
+  left: 0;
+  width: 1440px;
+  height: 376px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
